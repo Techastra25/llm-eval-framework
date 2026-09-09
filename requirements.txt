@@ -1,0 +1,14 @@
+# Core (needed to run the demo end-to-end, no API keys required)
+pandas>=2.0
+matplotlib>=3.8
+
+# Dashboard (optional — needed only for `streamlit run src/dashboard.py`)
+streamlit>=1.35
+
+# Testing
+pytest>=7.4
+
+# Production model backends (optional — only needed if you swap MockModel
+# for a real API in scripts/run_demo.py)
+# openai>=1.30
+# anthropic>=0.30
